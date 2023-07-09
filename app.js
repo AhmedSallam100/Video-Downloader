@@ -16,7 +16,7 @@ downloadVideoBtn.addEventListener("click", () => {
 // let location2 = window.location.href;
 
 let sendURL = (URL) =>
-  (location.href = `https://ahmedsallam100.github.io/Youtube-Video-Downloader/index.html?URL=${URL}`);
+  (location.href = `https://ahmedsallam100.github.io/Video-Downloader/index.html?URL=${URL}`);
 downloadthumBtn.addEventListener("click", () => {
   var query = urlInput.value;
   if (urlInput.value == "") {
